@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <!-- Parameters -->
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+
+    <!-- Run only specific groups -->
+    <groups>
+      <run>
+        <!-- You can include or exclude groups -->
+         <include name="Master"/>
+        <!--  <include name="sanity"/>-->
+     <!--  <include name="regression"/>-->
+        <!-- <exclude name="slow"/> -->
+      </run>
+    </groups>
+    <listeners>
+<listener class-name="utilities.ExtentReportManager"></listener>
+</listeners>
+    
+
+    <classes>
+    <class name="testCases.TC_01_AccountRegistration"/>
+      <class name="testCases.TC_02_Login"/>
+      <class name="testCases.TC_03_LoginDDT"/>
+      <!-- You can add more classes here -->
+    </classes>
+  </test>
+</suite>

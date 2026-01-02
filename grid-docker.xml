@@ -1,0 +1,29 @@
+<suite name="Suite" parallel="tests" thread-count="2">
+
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+
+  <!-- Firefox Test -->
+  <test name="Grid-Firefox-Test">
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC_01_AccountRegistration"/>
+      <class name="testCases.TC_02_Login"/>
+      <!-- <class name="testCases.TC_03_LoginDDT"/> -->
+    </classes>
+  </test>
+
+  <!-- Chrome Test -->
+  <test name="Grid-Chrome-Test">
+    <parameter name="os" value="linux"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_01_AccountRegistration"/>
+      <class name="testCases.TC_02_Login"/>
+      <!-- <class name="testCases.TC_03_LoginDDT"/> -->
+    </classes>
+  </test>
+
+</suite>

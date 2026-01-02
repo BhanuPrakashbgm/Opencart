@@ -1,0 +1,20 @@
+15:59:17.351 [main] INFO  testCases.TC_01_AccountRegistration - Browser launched and URL opened
+15:59:17.377 [main] INFO  testCases.TC_01_AccountRegistration - ---Starting---
+15:59:17.882 [main] INFO  testCases.TC_01_AccountRegistration - Clicked on register
+15:59:17.884 [main] INFO  testCases.TC_01_AccountRegistration - providing user details
+15:59:18.641 [main] INFO  testCases.TC_01_AccountRegistration - validating expected message
+15:59:19.346 [main] INFO  testCases.TC_01_AccountRegistration - Finished
+16:03:18.051 [main] INFO  testCases.TC_01_AccountRegistration - Browser launched and URL opened
+16:03:18.074 [main] INFO  testCases.TC_01_AccountRegistration - ---Starting---
+16:03:18.484 [main] INFO  testCases.TC_01_AccountRegistration - Clicked on register
+16:03:18.486 [main] INFO  testCases.TC_01_AccountRegistration - providing user details
+16:03:19.817 [main] INFO  testCases.TC_01_AccountRegistration - validating expected message
+16:03:19.854 [main] INFO  testCases.TC_01_AccountRegistration - Finished
+16:03:20.139 [main] INFO  testCases.TC_01_AccountRegistration - Browser closed
+16:03:50.284 [main] INFO  testCases.TC_01_AccountRegistration - Browser launched and URL opened
+16:03:50.310 [main] INFO  testCases.TC_01_AccountRegistration - ---Starting---
+16:03:50.728 [main] INFO  testCases.TC_01_AccountRegistration - Clicked on register
+16:03:50.731 [main] INFO  testCases.TC_01_AccountRegistration - providing user details
+16:03:51.875 [main] INFO  testCases.TC_01_AccountRegistration - validating expected message
+16:03:51.911 [main] INFO  testCases.TC_01_AccountRegistration - Finished
+16:03:52.252 [main] INFO  testCases.TC_01_AccountRegistration - Browser closed
